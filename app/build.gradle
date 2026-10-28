@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.worldbattle.royale'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.worldbattle.royale'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '1.1'
+    }
+}
